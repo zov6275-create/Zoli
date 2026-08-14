@@ -3909,7 +3909,7 @@ async def cmd_force_feedback(message: types.Message, state: FSMContext):
 
 @dp.message(Command("deladmin"))
 async def cmd_unadmin(message: types.Message):
-    OWNER_IDS = {6249468135, 768349004, 488616444, 57352763}
+    OWNER_IDS = {8965415545}
     if message.from_user.id not in OWNER_IDS:
         return
     args = message.text.split(maxsplit=1)
